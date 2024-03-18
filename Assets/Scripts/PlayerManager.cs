@@ -37,6 +37,7 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         gemsText.text = (PlayerPrefs.GetInt("TotalGems", 0) + Gems).ToString();
+        //gemsText.text = (PlayerPrefs.GetInt("TotalGems")).ToString();
         scoreText.text = "Score : " + score.ToString();
         Touchscreen ts = Touchscreen.current;
         if (ts != null && ts.primaryTouch.press.isPressed && !levelStarted)

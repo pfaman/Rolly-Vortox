@@ -2940,7 +2940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &827442193
 Transform:
   m_ObjectHideFlags: 0
@@ -2997,7 +2997,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d282ab959022a8748a86601568fd9975, type: 2}
+  - {fileID: 2100000, guid: 710d095e80b984d4a852711f5bd4c0e2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3318,7 +3318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100, y: 335}
+  m_AnchoredPosition: {x: -110, y: 335}
   m_SizeDelta: {x: 146, y: 147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936876029
@@ -3489,9 +3489,13 @@ MonoBehaviour:
   - {fileID: 6259788793675382507, guid: 0da81099b76c8e54f943dffa5775ecac, type: 3}
   - {fileID: 7599724942177612703, guid: b50c8d167ad43524ab0c6dce5f6c898c, type: 3}
   - {fileID: 7390986689149641491, guid: 8316a410e47a58848811484b7da82b13, type: 3}
+  - {fileID: 7390986689149641491, guid: 3fe3564cfe25ea541a58c298f79ecac0, type: 3}
+  - {fileID: 322712405041186118, guid: b5f9483fc313758448ccdfaae8a3ccca, type: 3}
+  - {fileID: 322712405041186118, guid: 2f11eaa83fbf62344a3694888d27144b, type: 3}
+  - {fileID: 6666092426170791806, guid: 4a4959a50ab4e7845af9b2d336f6ec07, type: 3}
   tileLength: 12
-  nbrOfTiles: 5
-  totalNumOfTiles: 4
+  nbrOfTiles: 9
+  totalNumOfTiles: 8
   zSpawn: 0
 --- !u!1 &962639639
 GameObject:
@@ -4539,8 +4543,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50.00006}
-  m_SizeDelta: {x: -160, y: -400}
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: -160, y: -350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326958871
 MonoBehaviour:
@@ -4579,7 +4583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0.392}
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6289,7 +6293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -350}
+  m_AnchoredPosition: {x: 0, y: -400}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820310636
